@@ -60,7 +60,7 @@ p {
 
 article {
     background-color: white;
-    padding: 1px 30px 35px 30px;
+    padding: 20px 30px 35px 30px;
     width: 400px;
     margin: 20px;
 }
@@ -101,7 +101,7 @@ footer p {
 h2{
     display: flex;
     justify-content: center;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 20px auto;
 }
 
 
