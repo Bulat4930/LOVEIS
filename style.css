@@ -19,8 +19,10 @@ header {
     text-decoration: none;
     padding: 15px;
     font-size: 24px;
-    border-radius: 10px;
-    padding-bottom: 15px;
+    border-radius: 30px;
+    padding-bottom: 15px;    
+    border: 3px solid white;
+
 }
 
 nav {
@@ -36,14 +38,20 @@ nav {
     font-size: 24px;
     color: white;
     text-decoration: none;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 h1 {
-    text-align: center;
     color: white;
     font-size: 36px;
     margin-top: 45px;
     margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
 
 p {
@@ -51,11 +59,10 @@ p {
 }
 
 .info {
-    flex-wrap: wrap;
     width: 1100px;
-    margin: 0 auto 0 auto;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 article {
@@ -63,6 +70,11 @@ article {
     padding: 20px 30px 35px 30px;
     width: 400px;
     margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px;
+    border-radius: 30px;
+    justify-content: center;
 }
 
 .article-but {
@@ -70,9 +82,9 @@ article {
     background-color: #133AAC;
     color: white;
     font-size: 24px;
-    text-align: center;
     padding: 10px 75px 10px 75px;
-    margin-left: 45px;
+    border: 3px solid white;
+    border-radius: 30px;
 }
 
 article p{
@@ -103,5 +115,56 @@ h2{
     justify-content: center;
     margin: 0 auto 20px auto;
 }
+
+.article-but:focus{
+    opacity: 0.5;
+}
+
+.nav-link:hover{
+    background-color: #FF4040;
+    color: black;
+}
+
+.nav-link:focus{
+    opacity: 0.5;
+    background-color: #FF0000;
+    color: black;
+}
+
+.button:hover{
+    background-color: #FF4040;
+    color: black;
+    font-weight: bold;
+   
+}
+
+h1:hover{
+    color: #FF4040;
+}
+
+article:hover{
+    background-color: #FF4040;
+    color: white;
+}
+
+article img{
+    border: 0px;
+    border-radius: 30px;
+}
+
+.article-but:hover{
+    background-color: #FF4040;
+}
+
+.article-but:focus{
+    opacity: 0.5;
+    background-color: #FF0000;
+    color: black;
+}
+
+.button:focus{
+    opacity: 0.5;
+    background-color: #FF0000;
+    color: black;
 
 
