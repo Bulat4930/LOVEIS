@@ -177,4 +177,6 @@ footer img:hover{
     height: 125px;
 }
 
-
+header img:hover{
+    opacity: 0.5;
+}
