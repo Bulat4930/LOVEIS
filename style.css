@@ -72,6 +72,7 @@ article {
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     border: 0px;
     border-radius: 30px;
 }
