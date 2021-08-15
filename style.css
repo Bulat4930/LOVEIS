@@ -72,9 +72,9 @@ article {
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     border: 0px;
     border-radius: 30px;
+    justify-content: space-around;
 }
 
 .article-but {
@@ -166,5 +166,15 @@ article img{
     opacity: 0.5;
     background-color: #FF0000;
     color: black;
+}
+
+footer p:hover{
+   color: #FF4040; 
+}
+
+footer img:hover{
+    width: 125px;
+    height: 125px;
+}
 
 
