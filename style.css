@@ -178,7 +178,3 @@ footer img:hover{
 header img:hover{
     opacity: 0.5;
 }
-
-article:visited{
-    opacity: 0.5;
-}
