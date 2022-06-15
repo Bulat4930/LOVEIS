@@ -1,0 +1,60 @@
+body {
+    font-family:sans-serif;
+    background-color: black;
+    font-weight: bold;
+}
+
+h1 {
+    color: #FF4040;
+    font-size: 36px;
+    margin-top:555px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+	opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+	transition: 1s; /*Скорость перехода состояния элемента*/
+	animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+	animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+	animation-delay: 1s;
+}
+
+h2 {
+	opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+	transition: 1s; /*Скорость перехода состояния элемента*/
+	animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+	animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+	animation-delay: 3s;
+    color: #FF4040;
+    font-size: 27px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	margin-left: 70px;
+	margin-right:70px;
+	text-align:center;
+}
+@keyframes show{
+0%{
+opacity:0;
+}
+100% {
+opacity:1;
+}
+}
+h3{
+	opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+	transition: 1s; /*Скорость перехода состояния элемента*/
+	animation: show 5s 1; /* Указываем название анимации, её время и количество повторов*/
+	animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+	animation-delay: 5s;
+    color: #FF4040;
+    font-size: 500;
+    margin-top: 45px;
+    margin-bottom:555px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
